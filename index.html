@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G.SRIKANTH | Financial Distributor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">G.SRIKANTH</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact" class="btn-nav">Contact Us</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Wealth Creation & <span class="highlight">Security</span></h1>
+            <p>Expert distribution for Mutual Funds and Life Insurance. Plan your financial future with G.SRIKANTH.</p>
+            <a href="#contact" class="btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About G.SRIKANTH</h2>
+                <div class="line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Welcome to <strong>G.SRIKANTH</strong>, your trusted partner in financial growth and security. With a dedicated focus on the Indian financial market, we provide personalized solutions for Mutual Fund investments and Life Insurance coverage.</p>
+                    <p>Our goal is to simplify complex financial products and help you achieve your life goals, whether it's buying a home, funding your child's education, or securing your family's future.</p>
+                    <ul class="checklist">
+                        <li><i class="fas fa-check-circle"></i> AMFI Registered Distributor</li>
+                        <li><i class="fas fa-check-circle"></i> IRDA Licensed Advisor</li>
+                        <li><i class="fas fa-check-circle"></i> Transparent & unbiased advice</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <i class="fas fa-chart-line fa-9x"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="line"></div>
+                <p>Comprehensive financial solutions tailored to your needs.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <h3>Mutual Funds</h3>
+                    <p>Invest in Equity, Debt, or Hybrid funds via SIP or Lump Sum. We help you select the top-performing schemes based on your risk appetite.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Life Insurance</h3>
+                    <p>Secure your family's future with Term Insurance, ULIPs, and Endowment plans. We find the best coverage at the most affordable premiums.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Financial Planning</h3>
+                    <p>Holistic planning including Tax Saving (80C) and Retirement solutions to ensure a stable post-retirement life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Let's Connect</h2>
+                    <p>Ready to start your investment journey? Call us or fill out the form.</p>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 98765 43210</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>gsrikanth.finance@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Hyderabad, Telangana, India</span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="tel" placeholder="Mobile Number" required>
+                        <select>
+                            <option>Interested in...</option>
+                            <option>Mutual Funds (SIP/Lumpsum)</option>
+                            <option>Life Insurance</option>
+                            <option>General Inquiry</option>
+                        </select>
+                        <textarea placeholder="Message" rows="4"></textarea>
+                        <button type="submit" class="btn-primary">Submit Enquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 G.SRIKANTH Financial Distributor. All Rights Reserved.</p>
+            <p class="disclaimer">Disclaimer: Mutual Funds and Life Insurance are subject to market risks. Please read all scheme documents carefully before investing.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple Script for Mobile Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

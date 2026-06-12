@@ -98,8 +98,9 @@ background:#f4f4f4;
 /* SERVICES */
 .services-grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
+margin-top:30px;
 }
 
 .service-card{
@@ -107,61 +108,20 @@ background:#fff;
 padding:20px;
 text-align:center;
 border-radius:10px;
-}
-.services {
-  padding: 50px 20px;
-  background: #f9f9f9;
-  text-align: center;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+transition:0.3s;
 }
 
-.services h2 {
-  font-size: 28px;
-  margin-bottom: 30px;
+.service-card i{
+font-size:30px;
+margin-bottom:10px;
+color:#007bff;
 }
 
-.services-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+.service-card:hover{
+transform:translateY(-5px);
 }
 
-.service-card {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  font-weight: 500;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  transition: 0.3s;
-}
-
-.service-card:hover {
-  transform: translateY(-5px);
-  .services-grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-gap: 20px;
-margin-top: 30px;
-}
-
-.service-card {
-background: #fff;
-padding: 20px;
-border-radius: 10px;
-text-align: center;
-box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-transition: 0.3s;
-}
-
-.service-card i {
-font-size: 30px;
-margin-bottom: 10px;
-color: #007bff;
-}
-
-.service-card:hover {
-transform: translateY(-5px);
-}
-}
 /* CONTACT */
 .contact-wrapper{
 display:grid;
@@ -223,13 +183,15 @@ font-size:26px;
 }
 
 }
+
+/* CERTIFICATE */
 .certificate {
-  margin-top: 20px;
-  text-align: center;
+margin-top: 20px;
+text-align: center;
 }
 
 .certificate img {
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
   

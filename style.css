@@ -16,10 +16,29 @@ overflow-x:hidden;
   overflow: hidden;
   white-space: nowrap;
   padding: 8px 0;
-  position: relative;
   font-size: 14px;
   font-weight: 500;
-  background: green;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.top-ticker p {
+  display: inline-block;
+  padding-left: 100%;
+  animation: slideText 15s linear infinite;
+}
+
+@keyframes slideText {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+/* prevent overlap */
+body {
+  padding-top: 40px;
 }
 
 /* TEXT ANIMATION */

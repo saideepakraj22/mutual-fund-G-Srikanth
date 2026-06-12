@@ -108,7 +108,35 @@ padding:20px;
 text-align:center;
 border-radius:10px;
 }
+.services {
+  padding: 50px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
 
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
 /* CONTACT */
 .contact-wrapper{
 display:grid;

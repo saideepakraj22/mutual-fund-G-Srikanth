@@ -156,50 +156,60 @@
   background: #1ebc57;
 }
 </style>
-    <section id="contact" class="section bg-light">
-<div class="container">
-<div class="row">
+   <section id="contact" class="section bg-light">
+  <div class="container">
+    
+    <div class="contact-wrapper">
 
-<!-- Left Side Info -->
-<div class="col-md-6">
-<h3>Let's Connect</h3>
-<p>Ready to start your investment journey? Contact me directly.</p>
+      <!-- Left Side -->
+      <div class="contact-info">
+        <h2>Let's Connect</h2>
+        <p>Ready to start your investment journey? Call us or fill out the form.</p>
 
-<p><strong>📞 Phone:</strong> +91 90526 56046</p>
-<p><strong>📧 Email:</strong> gsrikant.finance@gmail.com</p>
-<p><strong>📍 Address:</strong> Malkajgiri, Secunderabad, Telangana</p>
-</div>
+        <div class="info-item">
+          <i class="fas fa-phone"></i>
+          <span>+91 90526 56046</span>
+        </div>
 
-<!-- Right Side Form -->
-<div class="col-md-6">
-<form onsubmit="sendToWhatsApp(); return false;">
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <span>gsrikanth.finance@gmail.com</span>
+        </div>
 
-<input type="text" id="name" class="form-control mb-2" placeholder="Your Name" required>
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Malkajgiri, Hyderabad, Telangana, India</span>
+        </div>
+      </div>
 
-<input type="email" id="email" class="form-control mb-2" placeholder="Your Email" required>
+      <!-- Right Side Form -->
+      <div class="contact-form">
+        <form onsubmit="sendToWhatsApp(); return false;">
 
-<input type="text" id="mobile" class="form-control mb-2" placeholder="Mobile Number" required>
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <input type="text" id="mobile" placeholder="Mobile Number" required>
 
-<select id="service" class="form-control mb-2">
-<option>Interested In</option>
-<option>SIP Planning</option>
-<option>Mutual Funds</option>
-<option>Tax Saving</option>
-</select>
+          <select id="service">
+            <option>Interested In</option>
+            <option>SIP Planning</option>
+            <option>Mutual Funds</option>
+            <option>Tax Saving</option>
+          </select>
 
-<textarea id="message" class="form-control mb-2" placeholder="Type Message"></textarea>
+          <textarea id="message" placeholder="Type Message"></textarea>
 
-<button type="submit" class="btn btn-success w-100">
-Send Message on WhatsApp
-</button>
+          <button type="submit" class="btn-primary">
+            Send Message on WhatsApp
+          </button>
 
-</form>
-</div>
+        </form>
+      </div>
 
-</div>
-</div>
+    </div>
+
+  </div>
 </section>
-
 <script>
 function sendToWhatsApp(){
 let name = document.getElementById("name").value;

@@ -50,7 +50,7 @@ ul {
 
 .navbar .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* pushes left & right */
     align-items: center;
 }
 
@@ -63,6 +63,8 @@ ul {
 .nav-links {
     display: flex;
     gap: 25px;
+    margin-items: auto; /* IMPORTANT */
+    align-items: center;
 }
 
 .nav-links a {

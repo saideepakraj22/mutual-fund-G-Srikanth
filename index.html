@@ -54,11 +54,18 @@
 </section>
 
 <!-- ABOUT -->
-<section id="about" class="section">
-  <div class="container">
-    <div class="certificate">
-  <h3>NISM Certification</h3>
-  <img src="certificate.jpg" alt="NISM Certificate" width="300">
+<section id="nism">
+  <h2>NISM Certification</h2>
+
+  <div class="certificate-box">
+    <img src="certificate.jpg" alt="NISM Certificate" onclick="openModal()">
+  </div>
+</section>
+
+<!-- MODAL -->
+<div id="certModal" class="modal" onclick="closeModal()">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImg">
 </div>
     <h2>About GAJWINKAR SRIKANTH</h2>
     <p><h2>About Me</h2><p><strong>I AM GAJWINKAR SRIKANTH </strong>, your trusted partner in financial growth, protection, and long-term wealth creation.</p><p>

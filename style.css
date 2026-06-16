@@ -278,57 +278,7 @@ font-size:26px;
   font-size: 26px;
 }
 
-/* SECTION CENTER */
-#nism {
-  text-align: center;
-  padding: 50px 20px;
-}
 
-/* CERTIFICATE BOX */
-.certificate-box img {
-  max-width: 420px;
-  width: 100%;
-  border-radius: 12px;
-  cursor: pointer;
-  transition: 0.3s;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-}
-
-.certificate-box img:hover {
-  transform: scale(1.05);
-}
-
-/* MODAL BACKGROUND */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  padding-top: 60px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.9);
-}
-
-/* MODAL IMAGE */
-.modal-content {
-  margin: auto;
-  display: block;
-  max-width: 90%;
-  max-height: 80%;
-  border-radius: 10px;
-}
-
-/* CLOSE BUTTON */
-.close {
-  position: absolute;
-  top: 20px;
-  right: 40px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
 
 
 

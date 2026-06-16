@@ -8,6 +8,10 @@ font-family:'Poppins',sans-serif;
 body{
 overflow-x:hidden;
 }
+.arn i {
+  margin-right: 8px;
+  color: #28a745;
+}
 /* TOP SLIDING BAR */
 .top-ticker {
   width: 100%;

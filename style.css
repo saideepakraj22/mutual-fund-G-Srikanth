@@ -263,17 +263,19 @@ grid-template-columns:1fr;
 font-size:26px;
 }
 
-}
 .arn {
-  color: #fff;              /* white for dark background */
-  font-size: 18px;
-  font-weight: 600;
-  margin: 15px 0;
+  font-size: 28px;        /* 🔥 Bigger text */
+  font-weight: 700;       /* Bold */
+  color: #fff;            /* White for dark background */
+  margin: 20px 0;
+  text-align: center;
+  letter-spacing: 1px;
 }
 
 .arn i {
   color: #28a745;
-  margin-right: 8px;
+  margin-right: 10px;
+  font-size: 26px;
 }
 
 /* CERTIFICATE */

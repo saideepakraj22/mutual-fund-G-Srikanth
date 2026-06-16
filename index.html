@@ -238,6 +238,17 @@ window.open(url, "_blank");
 }
 
 </script>
+    <script>
+function openModal() {
+  document.getElementById("certModal").style.display = "block";
+  document.getElementById("modalImg").src =
+    document.querySelector(".certificate-box img").src;
+}
+
+function closeModal() {
+  document.getElementById("certModal").style.display = "none";
+}
+</script>
 
 </body>
 </html>

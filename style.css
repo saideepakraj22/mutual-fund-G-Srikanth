@@ -264,9 +264,16 @@ font-size:26px;
 }
 
 }
+.arn {
+  color: #fff;              /* white for dark background */
+  font-size: 18px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
 .arn i {
-  margin-right: 8px;
   color: #28a745;
+  margin-right: 8px;
 }
 
 /* CERTIFICATE */

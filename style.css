@@ -175,6 +175,34 @@ transition:.3s;
 .certificate-box img:hover{
 transform:scale(1.05);
 }
+.liafi-card{
+  max-width:450px;
+  margin:40px auto;
+  text-align:center;
+  background:#fff;
+  padding:20px;
+  border-radius:15px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.liafi-card h3{
+  color:#003366;
+  margin-bottom:15px;
+}
+
+.liafi-card img{
+  width:100%;
+  max-width:300px;
+  border-radius:10px;
+  border:2px solid #e5e5e5;
+}
+
+.liafi-card p{
+  margin-top:15px;
+  color:#555;
+  font-size:14px;
+  line-height:1.6;
+}
 
 /* SERVICES */
 .services{

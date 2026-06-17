@@ -209,17 +209,29 @@
 </section>
 
 <!-- SIP CALCULATOR -->
-<section class="section">
-  <div class="container">
+<section class="section sip-section">
+  <div class="sip-card">
+
     <h2>SIP Calculator</h2>
+    <p class="sip-subtitle">
+      Calculate your future wealth with Systematic Investment Plans
+    </p>
 
-    <input type="number" id="amt" placeholder="Monthly Amount">
-    <input type="number" id="rate" placeholder="Return %">
-    <input type="number" id="yrs" placeholder="Years">
+    <div class="sip-inputs">
+      <input type="number" id="amt" placeholder="Monthly Amount (₹)">
+      <input type="number" id="rate" placeholder="Return (%)">
+      <input type="number" id="yrs" placeholder="Years">
+    </div>
 
-    <button onclick="calc()">Calculate</button>
+    <button onclick="calc()" class="sip-btn">
+      <i class="fas fa-calculator"></i> Calculate
+    </button>
 
-    <h3 id="output"></h3>
+    <div class="sip-result">
+      <h4>Estimated Future Value</h4>
+      <h3 id="output">₹ 0</h3>
+    </div>
+
   </div>
 </section>
 
@@ -271,7 +283,8 @@ function calc(){
   let n = document.getElementById("yrs").value*12;
 
   let future = p * ((Math.pow(1+r,n)-1)/r)*(1+r);
-  document.getElementById("output").innerText = "₹ " + Math.round(future);
+document.getElementById("output").innerText =
+"₹ " + Math.round(future).toLocaleString('en-IN');
 }
 
 function sendToWhatsApp(){

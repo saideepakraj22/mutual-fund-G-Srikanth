@@ -295,6 +295,53 @@ font-size:26px;
   transform: scale(1.05);
 }
 
+  /* PROMO SECTION */
+.promo-section {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.promo-box {
+  max-width: 1000px;
+  margin: 20px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  background: #fff;
+  transition: 0.3s;
+}
+
+.promo-box img {
+  width: 100%;
+  display: block;
+}
+
+.promo-text {
+  padding: 20px;
+  text-align: center;
+}
+
+.promo-text h3 {
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.promo-text p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* HOVER EFFECT */
+.promo-box:hover {
+  transform: translateY(-5px);
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .promo-text h3{
+    font-size: 18px;
+  }
+}
 
 
 

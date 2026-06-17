@@ -525,6 +525,123 @@ grid-template-columns:1fr;
 font-size:30px;
 }
 }
+/* ==========================
+   PREMIUM CONTACT SECTION
+========================== */
 
+#contact{
+background:#f5f7fb;
+padding:80px 20px;
+}
 
+.contact-wrapper{
+display:grid;
+grid-template-columns:1fr 1.2fr;
+gap:40px;
+align-items:stretch;
+}
+
+/* LEFT SIDE */
+.contact-wrapper > div:first-child{
+background:linear-gradient(135deg,#003366,#0056b3);
+color:white;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.contact-wrapper > div:first-child h2{
+font-size:36px;
+margin-bottom:20px;
+color:#fff;
+}
+
+.contact-wrapper > div:first-child p{
+line-height:1.8;
+margin-bottom:15px;
+}
+
+.contact-wrapper > div:first-child a{
+color:#FFD700;
+text-decoration:none;
+}
+
+/* FORM CARD */
+.contact-wrapper form{
+background:white;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.contact-wrapper input,
+.contact-wrapper textarea{
+width:100%;
+padding:15px;
+border:1px solid #ddd;
+border-radius:10px;
+margin-bottom:15px;
+font-size:15px;
+outline:none;
+transition:0.3s;
+}
+
+.contact-wrapper input:focus,
+.contact-wrapper textarea:focus{
+border-color:#003366;
+box-shadow:0 0 10px rgba(0,51,102,0.1);
+}
+
+.contact-wrapper textarea{
+min-height:130px;
+resize:none;
+}
+
+/* BUTTON */
+.contact-wrapper button{
+width:100%;
+background:#003366;
+color:white;
+padding:16px;
+border:none;
+border-radius:10px;
+font-size:17px;
+font-weight:600;
+cursor:pointer;
+transition:0.3s;
+}
+
+.contact-wrapper button:hover{
+background:#0056b3;
+}
+
+/* TRUST BOX */
+.trust-badge{
+background:white;
+border:2px solid #FFD700;
+padding:15px;
+border-radius:12px;
+margin-top:25px;
+text-align:center;
+font-weight:600;
+color:#003366;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+
+.contact-wrapper{
+grid-template-columns:1fr;
+}
+
+.contact-wrapper > div:first-child h2{
+font-size:28px;
+text-align:center;
+}
+
+.contact-wrapper form{
+padding:25px;
+}
+
+}
 

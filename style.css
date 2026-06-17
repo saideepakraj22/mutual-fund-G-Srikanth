@@ -682,16 +682,4 @@ font-weight:500;
 grid-template-columns:repeat(2,1fr);
 }
 }
-.stat-box i{
-width:70px;
-height:70px;
-background:#fff;
-color:#003366;
-font-size:32px;
-border-radius:50%;
-display:flex;
-align-items:center;
-justify-content:center;
-margin:0 auto 15px;
-box-shadow:0 5px 15px rgba(0,0,0,0.15);
-}
+

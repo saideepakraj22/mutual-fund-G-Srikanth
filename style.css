@@ -277,6 +277,23 @@ font-size:26px;
   margin-right: 10px;
   font-size: 26px;
 }
+  /* CERTIFICATE CENTER + SMALL */
+.certificate-box {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.certificate-box img {
+  width: 250px;       /* 🔥 Small size */
+  max-width: 90%;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.certificate-box img:hover {
+  transform: scale(1.05);
+}
 
 
 
